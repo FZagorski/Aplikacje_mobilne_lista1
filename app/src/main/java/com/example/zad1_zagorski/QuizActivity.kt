@@ -26,7 +26,6 @@ class QuizActivity : AppCompatActivity() {
         val questionCounterTextView: TextView = findViewById(R.id.questionCounter)
         val progressBar: ProgressBar = findViewById(R.id.progressBar)
 
-
         progressBar.max = quizData.questions.size
         progressBar.progress = questionIndex + 1
 
