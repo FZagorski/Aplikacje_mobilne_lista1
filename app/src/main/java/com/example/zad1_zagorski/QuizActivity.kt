@@ -62,8 +62,6 @@ class QuizActivity : AppCompatActivity() {
                 startActivity(intent)
                 finish()
                 }
-            } else {
-                Toast.makeText(this, "Proszę wybrać odpowiedź", Toast.LENGTH_SHORT).show()
             }
         }
     }
