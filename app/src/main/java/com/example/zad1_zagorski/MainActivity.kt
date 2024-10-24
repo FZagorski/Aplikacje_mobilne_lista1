@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         val startButton: Button = findViewById(R.id.startButton)
-            startButton.setOnClickListener {
+        startButton.setOnClickListener {
             val intent = Intent(this, QuizActivity::class.java)
             startActivity(intent)
         }
